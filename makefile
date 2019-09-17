@@ -41,3 +41,5 @@ install: kernel.bin
 .PHONY: clean
 clean:
 	rm -rf iso output kernel.bin kernel.iso
+	
+	

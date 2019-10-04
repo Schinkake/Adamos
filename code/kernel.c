@@ -34,7 +34,7 @@ void kernelMain(struct multiboot_info* mbt, addr stack) {
 	
 	__asm__ __volatile__ ("sti");
 	
-	puts("Kein Betriebssystem gefunden...\n");
+	puts("Kein Betriebssystem gefunden...Beruder\n");
 	
     while(1);
 }

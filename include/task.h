@@ -5,8 +5,8 @@ typedef unsigned long int addr;
 #define KERNEL_STACK_SIZE 2048			/* Use a 2KB stack */
 
 /* Structure for a process */
-struct task
-{
+struct task {
+	
 	int id;					/* Process ID */
 	addr esp, ebp;				/* Stack and base pointers */
 	addr eip;				/* Instruction pointer */

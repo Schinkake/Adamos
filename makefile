@@ -3,7 +3,7 @@ ASPARAMS = -f elf32
 LDPARAMS = -melf_i386
 objects = output/loader.o output/descriptors/gdt.o \
 	output/descriptors/idt.o output/interrupts/isr.o \
-	output/interrupts/irq.o output/hw/port.o output/hw/timer.o \
+	output/interrupts/irq.o output/hw/serial.o output/hw/port.o output/hw/timer.o \
 	output/driver/keyboard.o output/std/memory.o output/std/string.o \
 	output/std/screen.o output/kernel.o
 
